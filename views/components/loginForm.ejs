@@ -1,0 +1,83 @@
+<div class="loginPage">
+    <h2>Safe Login</h2>
+
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Nome de usuário">
+        <br>
+        <input type="text" name="email" placeholder="Email">
+        <br>
+        <input type="text" name="password" placeholder="Senha"> 
+        <br>
+        <button type="submit">Entrar</button>
+    </form>
+
+    <h4>Não possui cadastro?</h4>
+    <a href="/register">cadastre-se</a>
+</div>
+
+<style>
+
+    @media only screen and (max-width: 1920px) {
+        .loginPage{
+            text-align: center;
+        }
+
+        .loginPage h2 {
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        .loginPage input {
+            margin-bottom: 10px;
+            width: 250px;
+            height: 25px;
+            border-radius: 0.5em;
+            border: 1px;
+            border-style: solid;
+        }
+
+        .loginPage button {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px;
+            border-style: solid;
+        }
+    }
+
+    @media only screen and (max-width: 1080px) {
+        .loginPage h2 {
+            font-size: 500%;
+            margin-bottom: 150px;
+            margin-top: 150px;
+        } 
+
+        .loginPage input {
+            margin-bottom: 20px;
+            width: 70%;
+            height: 300%;
+            font-size: 500%;
+            padding: 1%;
+        }
+
+        .loginPage button {
+            margin-top: 80px;
+            margin-bottom: 40px;
+            width: 50%;
+            height: 300%;
+            border-radius: 5px;
+            border: 1px;
+            border-style: solid;
+            font-size: 500%;
+        }
+
+        .loginPage h4 {
+            font-size: 350%;
+        }
+        .loginPage a {
+            font-size: 350%;
+        }
+    }
+</style>
