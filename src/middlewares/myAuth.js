@@ -4,7 +4,6 @@ const authentication = (req, res, next) => {
         res.redirect('/login');
     } else {
         return next();
-        // res.redirect('/logged');
     }
 };
 

@@ -6,10 +6,6 @@ const router = express.Router();
 
 router.use(cookieParser());
 
-// router.get('/', (req, res) => {
-//     res.render('pages/mainPage');
-// });
-
 router.get('/login', (req, res) => {
     res.render('pages/loginPage');
 });

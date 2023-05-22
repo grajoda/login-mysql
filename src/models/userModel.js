@@ -17,10 +17,8 @@ function createUser(username, email, password, callback){
     connection.query(sql, (error, results, field) => {
         if (error) {
             return callback(error, null);
-            // return error;
         } else {
             return callback(null, results);
-            // return results;
         }
     });
 }

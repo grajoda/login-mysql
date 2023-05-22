@@ -1,4 +1,5 @@
-// Configurações da conexão que vão ser usadas no CRUD 
+// Configurações da conexão com banco de dados
+// Database config to connection
 
 const user = '';
 const password = '';

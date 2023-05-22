@@ -1,5 +1,3 @@
-// rotas
-//importe as funções que deseja utilizar 
 const express = require('express');
 const router = express.Router();
 
